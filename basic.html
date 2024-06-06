@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><button class="nav-button" onclick="location.href='#home'">Home</button></li>
+            <li><button class="nav-button" onclick="location.href='#about'">About</button></li>
+            <li><button class="nav-button" onclick="location.href='#services'">Services</button></li>
+            <li><button class="nav-button" onclick="location.href='#contact'">Contact</button></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover amazing content and connect with us!</p>
+            <button class="cta-button" onclick="location.href='#services'">Explore Services</button>
+        </div>
+        <div class="home-content">
+            <div class="content-box">
+                <img src="img1.jpg" alt="Placeholder Image">
+                <h2>Our Mission</h2>
+                <p>We aim to provide the best services to our customers with utmost dedication and professionalism. Our mission is to innovate and lead in our industry, ensuring customer satisfaction and continuous improvement in all that we do.</p>
+            </div>
+            <div class="content-box">
+                <img src="img2.png" alt="Placeholder Image">
+                <h2>Why Choose Us?</h2>
+                <p>We offer unparalleled service quality and customer support, ensuring you get the best experience. Our team is composed of highly skilled professionals who are passionate about delivering top-notch services to our clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <div class="about-content">
+            <div class="card">
+                <h2>Our History</h2>
+                <p>Founded in 2002, our company has grown from a small startup to a leading player in the industry. Our journey has been marked by innovation, dedication, and a commitment to excellence.</p>
+            </div>
+            <div class="card">
+                <h2>Our Team</h2>
+                <p>Our team consists of experts from various fields, working together to deliver exceptional results. Each member brings a unique set of skills and experiences, contributing to our success.</p>
+            </div>
+            <div class="card">
+                <h2>Our Values</h2>
+                <p>Integrity, customer focus, and continuous improvement are the core values that drive us. We believe in building lasting relationships with our clients based on trust and mutual respect.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="consulting.jpeg" alt="Service 1">
+                <h2>Consulting</h2>
+                <p>We provide expert consulting services to help you navigate the complexities of your industry and achieve your business goals.</p>
+                <button class="service-button">Learn More</button>
+            </div>
+            <div class="service-item">
+                <img src="development.png" alt="Service 2">
+                <h2>Development</h2>
+                <p>Our development team specializes in creating innovative solutions tailored to your specific needs, ensuring seamless integration and superior performance.</p>
+                <button class="service-button">Learn More</button>
+            </div>
+            <div class="service-item">
+                <img src="img3.jpg" alt="Service 3">
+                <h2>Support</h2>
+                <p>We offer comprehensive support services to ensure your operations run smoothly and efficiently, with minimal downtime.</p>
+                <button class="service-button">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 style="color:white">Contact Us</h1>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h2>Email Us</h2>
+                <p>If you have any questions or need further information, feel free to reach out to us via email. We're here to help!</p>
+                <button class="contact-button" onclick="location.href='mailto:info@company.com'">Send Email</button>
+            </div>
+            <div class="contact-item">
+                <h2>Visit Our Office</h2>
+                <p>364 Main Street, Suite 400, DolarsColony, UK</p>
+                <button class="contact-button" onclick="location.href='https://maps.google.com'">Get Directions</button>
+            </div>
+            <div class="contact-item">
+                <h2>Call Us</h2>
+                <p>Phone: (98) 405-7421</p>
+                <button class="contact-button" onclick="location.href='tel:+1234567890'">Call Now</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
