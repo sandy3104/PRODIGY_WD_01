@@ -1,4 +1,3 @@
-// JavaScript to handle scroll and hover effects
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementById('navbar');
 
